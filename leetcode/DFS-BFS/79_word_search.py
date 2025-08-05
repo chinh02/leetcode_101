@@ -5,6 +5,9 @@
 # Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
 # Output: true
 
+from typing import List
+
+
 board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
 def wordSearch(board: List[List[str]], word: str) -> bool:
     return
